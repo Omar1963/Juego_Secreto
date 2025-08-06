@@ -179,7 +179,7 @@ function verificaIntento()
         }
 
  
-        else if (valorUsuario < numeroSecreto) 
+        else if (valorUsuario < numeroGenerado) 
             {
         modificaTextoInicio('p', 'El número secreto es mayor que ' + valorUsuario + '.' +
             '<br>Has necesitado ' + numeroIntentos + ' ' + (numeroIntentos > 1 ? 'intentos' : 'intento') + ' para adivinarlo.');
